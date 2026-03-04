@@ -43,12 +43,12 @@ button:hover{
 background-color:orange;
 }
 
-.image{
-width:40%;
-text-align:right;
+.image img{
+width:350px;
+background:transparent;
 }
 
 .image img{
 width:350px;
-border-radius:10px;
+border-radius:20px;
 }
