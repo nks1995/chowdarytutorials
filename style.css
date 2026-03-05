@@ -1,101 +1,33 @@
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background-color:#c9cc66;
-}
+/* Navbar */
 
-/* Layout */
-.container{
+.navbar{
 display:flex;
+justify-content:space-between;
 align-items:center;
-gap:80px;
-padding:80px;
+background-color:#2b8c8c;
+padding:15px 40px;
 }
 
-/* Left Image */
-.image img{
-width:320px;
+.logo{
+color:white;
+font-size:22px;
+font-weight:bold;
 }
 
-/* Text */
-.text{
-max-width:600px;
+.navbar ul{
+list-style:none;
+display:flex;
+gap:30px;
+margin:0;
+padding:0;
 }
 
-.text h1{
-font-style: Rockwell;
-color:#2b8c8c;
-margin:150px 0;
-}
-
-.text h2{
-color:#2b8c8c;
-margin:10px 0;
-}
-
-.text h3{
-color:#2b8c8c;
-margin:10px 0;
-}
-
-.text h2{
-margin-top:20px;
-}
-
-.text p{
-font-size:18px;
-line-height:1.5;
-}
-
-/* Button */
-button{
-margin-top:25px;
-padding:12px 28px;
-background-color:#f5b942;
-border:none;
+.navbar a{
+color:white;
+text-decoration:none;
 font-size:16px;
-cursor:pointer;
 }
 
-button:hover{
-background-color:orange;
+.navbar a:hover{
+text-decoration:underline;
 }
-
-/* Top Right Logo */
-.top-image{
-position:absolute;
-top:20px;
-right:20px;
-width:120px;
-}
-
-/* Fade animation */
-.fade-in{
-opacity:0;
-animation:fadeIn 2s forwards;
-}
-
-@keyframes fadeIn{
-from{opacity:0;}
-to{opacity:1;}
-}
-
-/* Slide animation */
-.slide-up{
-opacity:0;
-transform:translateY(40px);
-animation:slideUp 1s forwards;
-}
-
-@keyframes slideUp{
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-
-/* Delay for sequence animation */
-.delay1{animation-delay:0.5s;}
-.delay2{animation-delay:1s;}
-.delay3{animation-delay:1.5s;}
-.delay4{animation-delay:2s;}
