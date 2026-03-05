@@ -11,6 +11,13 @@ gap: 80px;
 padding:60px;
 }
 
+.top-image{
+position:absolute;
+top:20px;
+right:20px;
+width:120px;
+}
+
 .image{
 position:absolute;
 left:40px;
