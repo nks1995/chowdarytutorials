@@ -1,37 +1,41 @@
-/* Navbar */
+/* NAVBAR */
 
 .navbar{
 display:flex;
-justify-content:space-between;
 align-items:center;
-background-color:#2b8c8c;
+justify-content:space-between;
 padding:15px 40px;
+background:#ffffff;
 }
 
-.logo{
-color:white;
-font-size:15px;
+/* Title */
+
+.logo-title{
+font-size:22px;
 font-weight:bold;
 }
 
-.navbar ul{
-list-style:none;
+/* Menu */
+
+.menu ul{
 display:flex;
+list-style:none;
 gap:30px;
 margin:0;
 padding:0;
 }
 
-.navbar a{
-color:white;
+.menu a{
 text-decoration:none;
+color:black;
 font-size:16px;
 }
 
-.navbar a:hover{
-text-decoration:underline;
-}
+/* Right logo */
 
+.top-logo img{
+width:120px;
+}
 body{
 font-family: Arial, sans-serif;
 margin:0;
