@@ -1,45 +1,90 @@
 body{
-font-family:Rockwell;
+font-family: Arial, sans-serif;
 margin:0;
-background-color: #c9cc66;
+background-color:#c9cc66;
 }
 
+/* Layout */
 .container{
 display:flex;
 align-items:center;
-gap: 80px;
-padding:60px;
+gap:80px;
+padding:80px;
 }
 
-.top-image{
-position:absolute;
-top:20px;
-right:20px;
-width:100px;
-}
-
-.image{
-position:absolute;
-left:40px;
-}
-
+/* Left Image */
 .image img{
-width:350px;
+width:320px;
 }
 
+/* Text */
 .text{
-margin-left:450px;
 max-width:600px;
 }
 
 .text h1{
 color:#2b8c8c;
+margin:10px 0;
 }
 
-button{
+.text h2{
 margin-top:20px;
-padding:12px 25px;
+}
+
+.text p{
+font-size:18px;
+line-height:1.5;
+}
+
+/* Button */
+button{
+margin-top:25px;
+padding:12px 28px;
 background-color:#f5b942;
 border:none;
+font-size:16px;
 cursor:pointer;
 }
+
+button:hover{
+background-color:orange;
+}
+
+/* Top Right Logo */
+.top-image{
+position:absolute;
+top:20px;
+right:20px;
+width:120px;
+}
+
+/* Fade animation */
+.fade-in{
+opacity:0;
+animation:fadeIn 2s forwards;
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+/* Slide animation */
+.slide-up{
+opacity:0;
+transform:translateY(40px);
+animation:slideUp 1s forwards;
+}
+
+@keyframes slideUp{
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* Delay for sequence animation */
+.delay1{animation-delay:0.5s;}
+.delay2{animation-delay:1s;}
+.delay3{animation-delay:1.5s;}
+.delay4{animation-delay:2s;}
