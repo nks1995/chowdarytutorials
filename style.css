@@ -39,7 +39,7 @@ width:120px;
 body{
 font-family: Arial, sans-serif;
 margin:0;
-background-color:#c9cc66;
+background-color:#d5d826cb;
 }
 
 /* Layout */
@@ -78,14 +78,14 @@ line-height:1.5;
 button{
 margin-top:25px;
 padding:12px 28px;
-background-color:#f5b942;
+background-color:#e3f15c;
 border:none;
 font-size:16px;
 cursor:pointer;
 }
 
 button:hover{
-background-color:orange;
+background-color:rgb(153, 199, 44);
 }
 
 /* Top Right Logo */
